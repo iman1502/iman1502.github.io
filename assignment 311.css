@@ -1,0 +1,59 @@
+
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 0;
+		font-family: 'Segeo UI',Tahoma, Geneva, Verdana, sans-serif;
+		background-image: url(iman) ;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+		color: white;
+	
+	}
+	h1 {
+		font-family: arial, sans-serif;
+		text-align: center;
+		color: white;
+	}
+	.content {
+		margin-left: 200px;
+		padding-left: 20px;
+		padding-right:50px;
+	}
+	.sidenav {
+		height: 100%;
+		width: 130px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #DBCC95;
+		overflow-x: hidden;
+	}
+	.sidenav a {
+		color: white;
+		padding: 14px;
+		text-decoration: none;
+		display: block;
+	}
+	.sidenav a:hover {
+		background-color: chocolate;
+		color: black;
+	}
+
+	footer {
+			background-color: #333;
+			color: white;
+			text-align: center;
+			padding: 10px;
+			grid-column: span 2;
+			margin-top: 108px;
+		}
+
+</style>
+</head>
+</html>
